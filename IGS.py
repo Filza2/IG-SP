@@ -1,4 +1,5 @@
-from requests import post;from time import sleep
+try:from requests import post;from time import sleep
+except Exception as e:print(f'[!] Download The Missing Module ! , {e}');exit()
 def IGS():
 	phone=input('[+] The Phone Number : ')
 	while True:
